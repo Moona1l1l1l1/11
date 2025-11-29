@@ -1,0 +1,218 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 OPR/124.0.0.0" version="29.2.1">
+  <diagram name="Страница-1" id="3NjTCuc-zieXTDD6tyeD">
+    <mxGraphModel dx="1667" dy="973" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=33.45454545454545;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" value="Frontend" vertex="1">
+          <mxGeometry height="192" width="341" x="924" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3" parent="2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+REST API" vertex="1">
+          <mxGeometry height="33" width="341" y="33" as="geometry" />
+        </mxCell>
+        <mxCell id="4" parent="2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+WebSocket" vertex="1">
+          <mxGeometry height="33" width="341" y="67" as="geometry" />
+        </mxCell>
+        <mxCell id="5" parent="2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+Отображение информации клиентам" vertex="1">
+          <mxGeometry height="33" width="341" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="6" parent="2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+Сбор данных от курьеров" vertex="1">
+          <mxGeometry height="33" width="341" y="134" as="geometry" />
+        </mxCell>
+        <mxCell id="7" parent="2" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1">
+          <mxGeometry height="17" width="341" y="167" as="geometry" />
+        </mxCell>
+        <mxCell id="8" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=33.45454545454545;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" value="Backend" vertex="1">
+          <mxGeometry height="192" width="341" x="478" y="322" as="geometry" />
+        </mxCell>
+        <mxCell id="9" parent="8" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+Database" vertex="1">
+          <mxGeometry height="33" width="341" y="33" as="geometry" />
+        </mxCell>
+        <mxCell id="10" parent="8" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+Route Optimization Module" vertex="1">
+          <mxGeometry height="33" width="341" y="67" as="geometry" />
+        </mxCell>
+        <mxCell id="11" parent="8" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+Notification Service" vertex="1">
+          <mxGeometry height="33" width="341" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="12" parent="8" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+Управление бизнес-логикой системы" vertex="1">
+          <mxGeometry height="33" width="341" y="134" as="geometry" />
+        </mxCell>
+        <mxCell id="13" parent="8" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1">
+          <mxGeometry height="17" width="341" y="167" as="geometry" />
+        </mxCell>
+        <mxCell id="14" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=32;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" value="Database" vertex="1">
+          <mxGeometry height="216" width="335" x="446" y="902" as="geometry" />
+        </mxCell>
+        <mxCell id="15" parent="14" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+Хранение информации о заказах" vertex="1">
+          <mxGeometry height="32" width="335" y="32" as="geometry" />
+        </mxCell>
+        <mxCell id="16" parent="14" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+Хранение информации о товарах" vertex="1">
+          <mxGeometry height="32" width="335" y="64" as="geometry" />
+        </mxCell>
+        <mxCell id="17" parent="14" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+Хранение информации о клиентах" vertex="1">
+          <mxGeometry height="32" width="335" y="96" as="geometry" />
+        </mxCell>
+        <mxCell id="18" parent="14" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+Хранение информации о маршрутах" vertex="1">
+          <mxGeometry height="32" width="335" y="128" as="geometry" />
+        </mxCell>
+        <mxCell id="19" parent="14" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+Хранение информации о курьерах" vertex="1">
+          <mxGeometry height="32" width="335" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="20" parent="14" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1">
+          <mxGeometry height="16" width="335" y="192" as="geometry" />
+        </mxCell>
+        <mxCell id="21" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=38.857142857142854;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" value="RouteOptimizationModule" vertex="1">
+          <mxGeometry height="144" width="454" x="327" y="624" as="geometry" />
+        </mxCell>
+        <mxCell id="22" parent="21" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+Оптимизация маршрутов" vertex="1">
+          <mxGeometry height="39" width="454" y="39" as="geometry" />
+        </mxCell>
+        <mxCell id="23" parent="21" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+Расчет наилучших маршрутов для доставки" vertex="1">
+          <mxGeometry height="39" width="454" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="24" parent="21" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1">
+          <mxGeometry height="19" width="454" y="117" as="geometry" />
+        </mxCell>
+        <mxCell id="25" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=32;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" value="CourierIntegrationModule" vertex="1">
+          <mxGeometry height="216" width="523" x="8" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="26" parent="25" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+Courier API" vertex="1">
+          <mxGeometry height="32" width="523" y="32" as="geometry" />
+        </mxCell>
+        <mxCell id="27" parent="25" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+Webhook" vertex="1">
+          <mxGeometry height="32" width="523" y="64" as="geometry" />
+        </mxCell>
+        <mxCell id="28" parent="25" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+Взаимодействие с внешними курьерскими службами" vertex="1">
+          <mxGeometry height="32" width="523" y="96" as="geometry" />
+        </mxCell>
+        <mxCell id="29" parent="25" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+Получение статусов доставки" vertex="1">
+          <mxGeometry height="32" width="523" y="128" as="geometry" />
+        </mxCell>
+        <mxCell id="30" parent="25" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+Управление курьерами" vertex="1">
+          <mxGeometry height="32" width="523" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="31" parent="25" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1">
+          <mxGeometry height="16" width="523" y="192" as="geometry" />
+        </mxCell>
+        <mxCell id="32" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=32;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" value="WarehouseManagementModule" vertex="1">
+          <mxGeometry height="216" width="331" x="831" y="588" as="geometry" />
+        </mxCell>
+        <mxCell id="33" parent="32" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+SQL" vertex="1">
+          <mxGeometry height="32" width="331" y="32" as="geometry" />
+        </mxCell>
+        <mxCell id="34" parent="32" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+Inventory API" vertex="1">
+          <mxGeometry height="32" width="331" y="64" as="geometry" />
+        </mxCell>
+        <mxCell id="35" parent="32" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+Учет остатков" vertex="1">
+          <mxGeometry height="32" width="331" y="96" as="geometry" />
+        </mxCell>
+        <mxCell id="36" parent="32" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+Резервирование товаров" vertex="1">
+          <mxGeometry height="32" width="331" y="128" as="geometry" />
+        </mxCell>
+        <mxCell id="37" parent="32" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+Перемещение товаров" vertex="1">
+          <mxGeometry height="32" width="331" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="38" parent="32" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1">
+          <mxGeometry height="16" width="331" y="192" as="geometry" />
+        </mxCell>
+        <mxCell id="39" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=38.857142857142854;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" value="NotificationSystem" vertex="1">
+          <mxGeometry height="144" width="350" x="1213" y="624" as="geometry" />
+        </mxCell>
+        <mxCell id="40" parent="39" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+Отправка уведомлений клиентам" vertex="1">
+          <mxGeometry height="39" width="350" y="39" as="geometry" />
+        </mxCell>
+        <mxCell id="41" parent="39" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+Отправка уведомлений курьерам" vertex="1">
+          <mxGeometry height="39" width="350" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="42" parent="39" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1">
+          <mxGeometry height="19" width="350" y="117" as="geometry" />
+        </mxCell>
+        <mxCell id="43" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=35.55555555555556;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" value="AnalyticsSystem" vertex="1">
+          <mxGeometry height="168" width="266" x="1315" y="32" as="geometry" />
+        </mxCell>
+        <mxCell id="44" parent="43" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+Report API" vertex="1">
+          <mxGeometry height="36" width="266" y="36" as="geometry" />
+        </mxCell>
+        <mxCell id="45" parent="43" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+Генерация отчетов" vertex="1">
+          <mxGeometry height="36" width="266" y="71" as="geometry" />
+        </mxCell>
+        <mxCell id="46" parent="43" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+Анализ эффективности" vertex="1">
+          <mxGeometry height="36" width="266" y="107" as="geometry" />
+        </mxCell>
+        <mxCell id="47" parent="43" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1">
+          <mxGeometry height="18" width="266" y="142" as="geometry" />
+        </mxCell>
+        <mxCell id="48" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=38;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" value="ExternalAPI" vertex="1">
+          <mxGeometry height="84" width="111" x="214" y="376" as="geometry" />
+        </mxCell>
+        <mxCell id="49" parent="48" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1">
+          <mxGeometry height="19" width="111" y="57" as="geometry" />
+        </mxCell>
+        <mxCell id="50" edge="1" parent="1" source="2" style="curved=1;startArrow=none;endArrow=open;endSize=12;exitX=0;exitY=0.81;entryX=0.5;entryY=0;" target="8" value="REST API">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="649" y="273" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="51" edge="1" parent="1" source="8" style="curved=1;startArrow=none;endArrow=open;endSize=12;exitX=0;exitY=0.8;entryX=0;entryY=0.15;" target="14" value="Запросы">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="261" y="551" />
+              <mxPoint x="261" y="853" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="52" edge="1" parent="1" source="8" style="curved=1;startArrow=none;endArrow=open;endSize=12;exitX=0.3;exitY=1;entryX=0.5;entryY=0;" target="21" value="Запросы на оптимизацию">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="554" y="551" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="53" edge="1" parent="1" source="8" style="curved=1;startArrow=none;endArrow=open;endSize=12;exitX=1;exitY=0.8;entryX=0.01;entryY=0;" target="39" value="Триггеры уведомлений">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1042" y="551" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="54" edge="1" parent="1" source="25" style="curved=1;startArrow=none;endArrow=open;endSize=12;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="48" value="Взаимодействие с курьерскими службами">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="55" edge="1" parent="1" source="32" style="curved=1;startArrow=none;endArrow=open;endSize=12;exitX=0.5;exitY=1;entryX=1;entryY=0.18;" target="14" value="Хранение и управление данными о товарах">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="997" y="853" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="56" edge="1" parent="1" source="39" style="curved=1;startArrow=none;endArrow=open;endSize=12;exitX=0.49;exitY=0;entryX=1;entryY=0.99;" target="2" value="Уведомления для клиентов">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1382" y="551" />
+              <mxPoint x="1382" y="273" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="57" edge="1" parent="1" source="39" style="curved=1;startArrow=none;endArrow=open;endSize=12;exitX=0.86;exitY=0;entryX=1;entryY=0.76;" target="2" value="Уведомления для курьеров">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1639" y="551" />
+              <mxPoint x="1639" y="273" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="58" edge="1" parent="1" source="8" style="curved=1;startArrow=none;endArrow=open;endSize=12;exitX=1;exitY=0.7;entryX=1;entryY=0.04;" target="32" value="Управление складом">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1238" y="551" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
